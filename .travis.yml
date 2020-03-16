@@ -12,6 +12,7 @@ before_install:
 script:
  - docker run -e CI=true harimadala/docker-react npm run test
 
+
 deploy:
  provider: elasticbeanstalk
  region: "us-east-2"
